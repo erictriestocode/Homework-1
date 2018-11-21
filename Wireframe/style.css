@@ -1,0 +1,65 @@
+.background {
+    background-color: grey;
+    text-align: center;
+}
+
+.header {
+    padding: 25px;
+    width: 50%;
+    left: 50%;
+    right: 50%;
+    margin: 5px;
+    background-color: beige;
+    text-align: center;
+}
+
+.nav{
+    padding: 25px;
+    background-color: beige;
+    width: 50%;
+    margin: 5px;
+    align-content: center;
+}
+
+.section {
+    background-color: beige;
+    padding: 25px;
+    width: 50%;
+    float: left;
+    margin: 5px;
+
+}
+
+.article {
+    background-color: pink;
+    width: 50%;
+    margin: 5px;
+
+}
+
+.h1 {
+    background-color: yellow;
+    width: 50%;
+
+}
+
+.p {
+    background-color: yellow;
+    width: 50%;
+
+}
+
+.aside {
+    background-color: beige;
+    padding: 25px;
+    width: 50%;
+    //float: right;
+
+}
+
+.footer {
+    background-color: beige;
+    padding: 25px;
+    width: 50%;
+
+}
