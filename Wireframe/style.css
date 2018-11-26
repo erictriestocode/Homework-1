@@ -5,56 +5,38 @@
 }
 
 .content{
-    width: 960px;
     display: grid;
     justify-items: center;
 }
 
 .header {
-    padding: 25px;
     background-color: beige;
-    text-align: center;
 }
 
 .nav{
     background-color: beige;
-    align-content: center;
-    padding: 25px;
 }
 
 .section {
     background-color: beige;
-    padding: 25px;
-    float: left;
 }
 
 .article {
     background-color: pink;
-    margin: 5px;
 }
 
 .h1 {
     background-color: yellow;
-    width: 50%;
 }
 
 .p {
     background-color: yellow;
-    width: 50%;
-
 }
 
 .aside {
     background-color: beige;
-    padding: 25px;
-    width: 50%;
-    /*float: right; */
-
 }
 
 .footer {
     background-color: beige;
-    padding: 25px;
-    width: 50%;
-
 }
