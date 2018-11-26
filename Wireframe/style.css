@@ -6,6 +6,8 @@
 
 .content{
     width: 960px;
+    display: grid;
+    justify-items: center;
 }
 
 .header {
