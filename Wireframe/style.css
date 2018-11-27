@@ -1,7 +1,13 @@
-.background {
-    background-color: grey;
-    /* box-sizing: border-box;
-    text-align: center; */
+/* My class names are all messed up as I crunched through the process; I would/will definitely clean this up further especially if it is production code */
+
+html{
+    background-color:#777;
+}
+
+/* Largely unused class as I moved the background */
+.background { 
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .content{
@@ -9,52 +15,51 @@
     justify-items: center;  
     grid-row-gap: 1em;
     grid-column-gap: 1em;
-    grid-template-columns: auto;
-    font-family: Arial, Helvetica, sans-serif; /* personal preference */
+    font-family: Arial, Helvetica, sans-serif; /* requirement of assignment */
 }
 
 .header {
     background-color: beige;
+    width: 495px;
 }
 
 .nav{
     background-color: beige;
+    width: 495px;
 }
-
-/* TODO: create new wrapper for the section and aside groupings */
-/* TODO: use fractions for the aside/secion columns per 10min into Grid video */
-/* TODO: nested divs at 14min of grid video */
 
 .twoby{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em;
+    width: 495px;
     
 }
 .section {
     background-color: beige;
-    /* width: 50%;
-    float: left; */
 }
 
 .article {
     background-color: pink;
+    margin: 10px;
+    padding: 5px;
 }
 
 .h1 {
     background-color: yellow;
+    margin:5px;
 }
 
 .p {
     background-color: yellow;
+    margin: 5px;
 }
 
 .aside {
     background-color: beige;
-    /* width:50%;
-    float: left; */
 }
 
 .footer {
     background-color: beige;
+    width: 495px;
 }
