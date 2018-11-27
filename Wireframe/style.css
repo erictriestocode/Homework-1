@@ -1,7 +1,7 @@
 .background {
     background-color: grey;
-    box-sizing: border-box;
-    text-align: center;
+    /* box-sizing: border-box;
+    text-align: center; */
 }
 
 .content{
@@ -9,6 +9,7 @@
     justify-items: center;  
     grid-row-gap: 1em;
     grid-column-gap: 1em;
+    grid-template-columns: auto;
     font-family: Arial, Helvetica, sans-serif; /* personal preference */
 }
 
@@ -20,12 +21,20 @@
     background-color: beige;
 }
 
-/* TODO: create new wrppaer for the section and aside groupings */
+/* TODO: create new wrapper for the section and aside groupings */
 /* TODO: use fractions for the aside/secion columns per 10min into Grid video */
 /* TODO: nested divs at 14min of grid video */
 
+.twoby{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    
+}
 .section {
     background-color: beige;
+    /* width: 50%;
+    float: left; */
 }
 
 .article {
@@ -42,6 +51,8 @@
 
 .aside {
     background-color: beige;
+    /* width:50%;
+    float: left; */
 }
 
 .footer {
