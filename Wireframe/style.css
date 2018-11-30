@@ -1,7 +1,7 @@
 /* My class names are all messed up as I crunched through the process; I would/will definitely clean this up further especially if it is production code */
 
 html{
-    background-color:#777;
+    background-color: #777;
 }
 
 /* Largely unused class as I moved the background */
@@ -16,15 +16,16 @@ html{
     grid-row-gap: 1em;
     grid-column-gap: 1em;
     font-family: Arial, Helvetica, sans-serif; /* requirement of assignment */
+    font-size: 18px;
 }
 
 .header {
-    background-color: beige;
+    background-color: #ebebeb;
     width: 495px;
 }
 
 .nav{
-    background-color: beige;
+    background-color:  #ebebeb;
     width: 495px;
 }
 
@@ -36,30 +37,30 @@ html{
     
 }
 .section {
-    background-color: beige;
+    background-color:  #ebebeb;
 }
 
 .article {
-    background-color: pink;
+    background-color: #777;
     margin: 10px;
     padding: 5px;
 }
 
 .h1 {
-    background-color: yellow;
+    background-color: #ebebeb;
     margin:5px;
 }
 
 .p {
-    background-color: yellow;
+    background-color: #ebebeb;
     margin: 5px;
 }
 
 .aside {
-    background-color: beige;
+    background-color:  #ebebeb;
 }
 
 .footer {
-    background-color: beige;
+    background-color:  #ebebeb;
     width: 495px;
 }
